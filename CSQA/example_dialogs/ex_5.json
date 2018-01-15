@@ -1,0 +1,389 @@
+[
+ {
+  "ques_type_id": 1, 
+  "description": "Simple Question", 
+  "relations": [
+   "P123"
+  ], 
+  "entities": [
+   "Q3521110"
+  ], 
+  "speaker": "USER", 
+  "signature": "{Qid:Q3521110}@{description:Simple Question}@{entities:[u'Q3521110']}@{len(ans_list) > 1:False}@{prop_Qid_par:Q28640}@{prop_res:P123}@{ques_type_id:1}@{relations:[u'P123']}@{speaker:USER}@{utterance:Who published The Granstream Saga ?}", 
+  "utterance": "Who published The Granstream Saga ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q18594"
+  ], 
+  "entities": [
+   "Q18594"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(Q3521110,P123,c(Q28640))']}@{entities:[u'Q18594']}@{speaker:SYSTEM}@{utterance:Sony Interactive Entertainment}", 
+  "utterance": "Sony Interactive Entertainment", 
+  "active_set": [
+   "(Q3521110,P123,c(Q28640))"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity|Indirect", 
+  "sec_ques_sub_type": 2, 
+  "relations": [
+   "P170"
+  ], 
+  "entities": [
+   "Q18594"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 2, 
+  "signature": "{Qid:Q18594}@{description:Simple Question|Single Entity|Indirect}@{entities:[u'Q18594']}@{len(ans_list) > 1:False}@{prop_Qid_par:Q241317}@{prop_res:P170}@{ques_type_id:2}@{relations:[u'P170']}@{sec_ques_sub_type:2}@{sec_ques_type:2}@{speaker:USER}@{utterance:What was developed by that profession ?}", 
+  "utterance": "What was developed by that profession ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q24433669"
+  ], 
+  "entities": [
+   "Q24433669"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(c(Q241317),P170,Q18594)']}@{entities:[u'Q24433669']}@{speaker:SYSTEM}@{utterance:PlayStation 4.5}", 
+  "utterance": "PlayStation 4.5", 
+  "active_set": [
+   "(c(Q241317),P170,Q18594)"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity", 
+  "sec_ques_sub_type": 1, 
+  "relations": [
+   "P749"
+  ], 
+  "entities": [
+   "Q18594"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 2, 
+  "signature": "{Qid:Q18594}@{description:Simple Question|Single Entity}@{entities:[u'Q18594']}@{len(ans_list) > 1:False}@{prop_Qid_par:Q28640}@{prop_res:P749}@{ques_type_id:2}@{relations:[u'P749']}@{sec_ques_sub_type:1}@{sec_ques_type:2}@{speaker:USER}@{utterance:Which profession is Sony Interactive Entertainment a parent organization of ?}", 
+  "utterance": "Which profession is Sony Interactive Entertainment a parent organization of ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q923047"
+  ], 
+  "entities": [
+   "Q923047"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(c(Q28640),P749,Q18594)']}@{entities:[u'Q923047']}@{speaker:SYSTEM}@{utterance:989 Studios}", 
+  "utterance": "989 Studios", 
+  "active_set": [
+   "(c(Q28640),P749,Q18594)"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity|Indirect", 
+  "sec_ques_sub_type": 2, 
+  "relations": [
+   "P178"
+  ], 
+  "entities": [
+   "Q923047"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 2, 
+  "signature": "{Qid:Q923047}@{description:Simple Question|Single Entity|Indirect}@{entities:[u'Q923047']}@{len(ans_list) > 1:True}@{prop_Qid_par:Q166142}@{prop_res:P178}@{ques_type_id:2}@{relations:[u'P178']}@{sec_ques_sub_type:2}@{sec_ques_type:2}@{speaker:USER}@{utterance:Which applications were developed by that profession ?}", 
+  "utterance": "Which applications were developed by that profession ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q1967293", 
+   "Q2466962", 
+   "Q2019386", 
+   "Q1978200", 
+   "Q2367032", 
+   "Q2019330", 
+   "Q6716519", 
+   "Q3031547"
+  ], 
+  "entities": [
+   "Q2367032", 
+   "Q1978200", 
+   "Q3031547"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(c(Q166142),P178,Q923047)']}@{entities:[u'Q2367032', u'Q1978200', u'Q3031547']}@{speaker:SYSTEM}@{utterance:Twisted Metal 2, Twisted Metal III, ESPN Extreme Games}", 
+  "utterance": "Twisted Metal 2, Twisted Metal III, ESPN Extreme Games", 
+  "active_set": [
+   "(c(Q166142),P178,Q923047)"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity|Indirect", 
+  "sec_ques_sub_type": 2, 
+  "relations": [
+   "P840"
+  ], 
+  "entities": [
+   "Q3031547"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 1, 
+  "signature": "{Qid:Q3031547}@{description:Simple Question|Single Entity|Indirect}@{entities:[u'Q3031547']}@{len(ans_list) > 1:False}@{prop_Qid_par:Q852446}@{prop_res:P840}@{ques_type_id:2}@{relations:[u'P840']}@{sec_ques_sub_type:2}@{sec_ques_type:1}@{speaker:USER}@{utterance:Which narrative location is that application set in ?}", 
+  "utterance": "Which narrative location is that application set in ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q2367032", 
+   "Q1978200", 
+   "Q3031547"
+  ], 
+  "ques_type_id": 3, 
+  "description": "Clarification for simple ques.", 
+  "active_set": [
+   "(Q2367032,P840,c(Q852446))", 
+   "(Q1978200,P840,c(Q852446))", 
+   "(Q3031547,P840,c(Q852446))"
+  ], 
+  "relations": [], 
+  "entities": [
+   "Q1978200"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(Q2367032,P840,c(Q852446))', u'(Q1978200,P840,c(Q852446))', u'(Q3031547,P840,c(Q852446))']}@{description:Clarification for simple ques.}@{entities:[u'Q1978200']}@{ques_type_id:3}@{relations:[]}@{speaker:SYSTEM}@{utterance:Did you mean Twisted Metal III ?}", 
+  "utterance": "Did you mean Twisted Metal III ?"
+ }, 
+ {
+  "speaker": "USER", 
+  "utterance": "No, I meant ESPN Extreme Games. Could you tell me the answer for that?", 
+  "entities": [
+   "Q3031547"
+  ]
+ }, 
+ {
+  "ans_list_full": [
+   "Q99"
+  ], 
+  "entities": [
+   "Q99"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(Q3031547,P840,c(Q852446))']}@{entities:[u'Q99']}@{speaker:SYSTEM}@{utterance:California}", 
+  "utterance": "California", 
+  "active_set": [
+   "(Q3031547,P840,c(Q852446))"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity", 
+  "sec_ques_sub_type": 1, 
+  "relations": [
+   "P750"
+  ], 
+  "entities": [
+   "Q1978200"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 1, 
+  "signature": "{Qid:Q1978200}@{description:Simple Question|Single Entity}@{entities:[u'Q1978200']}@{len(ans_list) > 1:False}@{prop_Qid_par:Q28640}@{prop_res:P750}@{ques_type_id:2}@{relations:[u'P750']}@{sec_ques_sub_type:1}@{sec_ques_type:1}@{speaker:USER}@{utterance:Who serves as the distributor of Twisted Metal III ?}", 
+  "utterance": "Who serves as the distributor of Twisted Metal III ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q18594"
+  ], 
+  "entities": [
+   "Q18594"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(Q1978200,P750,c(Q28640))']}@{entities:[u'Q18594']}@{speaker:SYSTEM}@{utterance:Sony Interactive Entertainment}", 
+  "utterance": "Sony Interactive Entertainment", 
+  "active_set": [
+   "(Q1978200,P750,c(Q28640))"
+  ]
+ }, 
+ {
+  "description": "Comparative|Count over More/Less|Mult. entity type", 
+  "count_ques_type": 1, 
+  "set_op": 1, 
+  "ques_type_id": 8, 
+  "relations": [
+   "P355"
+  ], 
+  "count_ques_sub_type": 7, 
+  "entities": [
+   "Q94937"
+  ], 
+  "speaker": "USER", 
+  "signature": "{Z:Q94937}@{count_ques_sub_type:7}@{count_ques_type:1}@{description:Comparative|Count over More/Less|Mult. entity type}@{entities:[u'Q94937']}@{is_incomplete:0}@{obj_par:Q28640}@{prop_res:P355}@{qualifier_choice:less}@{ques_type_id:8}@{relations:[u'P355']}@{set_op:1}@{speaker:USER}@{sub_par_1:Q43229}@{sub_par_2:Q28640}@{utterance:How many professions are less number of organizations and professions the parent company of than 2K Games ?}", 
+  "is_incomplete": 0, 
+  "utterance": "How many professions are less number of organizations and professions the parent company of than 2K Games ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q1060165", 
+   "Q2510684", 
+   "Q2607531", 
+   "Q1930918", 
+   "Q3281900", 
+   "Q3052263", 
+   "Q15240959", 
+   "Q1172164", 
+   "Q959672", 
+   "Q923047", 
+   "Q3456271", 
+   "Q739711", 
+   "Q863618", 
+   "Q8043371", 
+   "Q2740414", 
+   "Q1403157", 
+   "Q860580", 
+   "Q1040450", 
+   "Q15018011", 
+   "Q1064703", 
+   "Q2660350", 
+   "Q6423274", 
+   "Q800120", 
+   "Q991149", 
+   "Q1466613", 
+   "Q1053684", 
+   "Q26222", 
+   "Q123018", 
+   "Q4039000"
+  ], 
+  "entities": [], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(c(Q43229)|c(Q28640),P355,c(Q28640))']}@{entities:[]}@{speaker:SYSTEM}@{utterance:29}", 
+  "utterance": "29", 
+  "active_set": [
+   "(c(Q43229)|c(Q28640),P355,c(Q28640))"
+  ]
+ }, 
+ {
+  "set_op": 1, 
+  "ques_type_id": 8, 
+  "description": "Comparative|Count over More/Less|Mult. entity type|Incomplete", 
+  "relations": [
+   "P355"
+  ], 
+  "count_ques_sub_type": 7, 
+  "entities": [
+   "Q1403157"
+  ], 
+  "speaker": "USER", 
+  "signature": "{count_ques_sub_type:7}@{count_ques_type:1}@{description:Comparative|Count over More/Less|Mult. entity type|Incomplete}@{entities:[u'Q1403157']}@{is_incomplete:1}@{ques_type_id:8}@{relations:[u'P355']}@{set_op:1}@{speaker:USER}@{utterance:And also tell me about WMS Industries?}", 
+  "count_ques_type": 1, 
+  "utterance": "And also tell me about WMS Industries?", 
+  "is_incomplete": 1
+ }, 
+ {
+  "ans_list_full": [
+   "Q2607531", 
+   "Q1172164", 
+   "Q3281900", 
+   "Q6423274", 
+   "Q8043371", 
+   "Q923047", 
+   "Q1064703", 
+   "Q73801", 
+   "Q18414205", 
+   "Q1466613", 
+   "Q860580", 
+   "Q1692707", 
+   "Q3456271", 
+   "Q611508", 
+   "Q684218", 
+   "Q1358751", 
+   "Q13409231", 
+   "Q1060165", 
+   "Q15018011", 
+   "Q18594", 
+   "Q1129295", 
+   "Q1053684", 
+   "Q15240959", 
+   "Q4039000", 
+   "Q1930918", 
+   "Q959672", 
+   "Q739711", 
+   "Q991149"
+  ], 
+  "entities": [], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(c(Q43229)|c(Q28640),P355,c(Q28640))']}@{entities:[]}@{speaker:SYSTEM}@{utterance:28}", 
+  "utterance": "28", 
+  "active_set": [
+   "(c(Q43229)|c(Q28640),P355,c(Q28640))"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity", 
+  "sec_ques_sub_type": 1, 
+  "relations": [
+   "P127"
+  ], 
+  "entities": [
+   "Q18594"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 2, 
+  "signature": "{Qid:Q18594}@{description:Simple Question|Single Entity}@{entities:[u'Q18594']}@{len(ans_list) > 1:True}@{prop_Qid_par:Q28640}@{prop_res:P127}@{ques_type_id:2}@{relations:[u'P127']}@{sec_ques_sub_type:1}@{sec_ques_type:2}@{speaker:USER}@{utterance:Which professions are owned by Sony Interactive Entertainment ?}", 
+  "utterance": "Which professions are owned by Sony Interactive Entertainment ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q266418", 
+   "Q1053684", 
+   "Q923047", 
+   "Q794750", 
+   "Q542018", 
+   "Q205500"
+  ], 
+  "entities": [
+   "Q1053684", 
+   "Q923047", 
+   "Q266418"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(c(Q28640),P127,Q18594)']}@{entities:[u'Q1053684', u'Q923047', u'Q266418']}@{speaker:SYSTEM}@{utterance:Polyphony Digital, 989 Studios, SCE London Studio}", 
+  "utterance": "Polyphony Digital, 989 Studios, SCE London Studio", 
+  "active_set": [
+   "(c(Q28640),P127,Q18594)"
+  ]
+ }, 
+ {
+  "ques_type_id": 2, 
+  "description": "Simple Question|Single Entity", 
+  "sec_ques_sub_type": 1, 
+  "relations": [
+   "P452"
+  ], 
+  "entities": [
+   "Q923047"
+  ], 
+  "speaker": "USER", 
+  "sec_ques_type": 1, 
+  "signature": "{Qid:Q923047}@{description:Simple Question|Single Entity}@{entities:[u'Q923047']}@{len(ans_list) > 1:False}@{prop_Qid_par:Q268592}@{prop_res:P452}@{ques_type_id:2}@{relations:[u'P452']}@{sec_ques_sub_type:1}@{sec_ques_type:1}@{speaker:USER}@{utterance:Which economic branch is the industry to which 989 Studios belongs ?}", 
+  "utterance": "Which economic branch is the industry to which 989 Studios belongs ?"
+ }, 
+ {
+  "ans_list_full": [
+   "Q941594"
+  ], 
+  "entities": [
+   "Q941594"
+  ], 
+  "speaker": "SYSTEM", 
+  "signature": "{active_set:[u'(Q923047,P452,c(Q268592))']}@{entities:[u'Q941594']}@{speaker:SYSTEM}@{utterance:video game industry}", 
+  "utterance": "video game industry", 
+  "active_set": [
+   "(Q923047,P452,c(Q268592))"
+  ]
+ }
+]
